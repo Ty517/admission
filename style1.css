@@ -1,0 +1,64 @@
+body {
+    background-image: url('log.jpg'); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-color: #292b2c; 
+    color: #fff; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#css{
+    background:#294058;
+    color:white;
+    border-radius: 20cm;
+    margin-bottom: 1cm;
+    margin-top: 1cm;
+}
+h1 {
+    
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    max-width: 500px; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #fff; 
+    color: #333;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #13365B;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #064588;
+}

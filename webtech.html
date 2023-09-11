@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Admission</title>
+</head>
+<body>
+    <div class="feature" id="css">
+        <h3 align="center">Student Admission</h3>
+    </div>
+    <form id="admissionForm" onsubmit="return validateForm()">
+        <label for="sid">Student ID:</label>
+        <input type="text" id="sid" name="sid" required><br>
+
+        <label for="names">Full Names:</label>
+        <input type="text" id="names" name="names" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br>
+
+        <label for="faculty">Faculty:</label>
+        <input type="text" id="faculty" name="faculty" required><br>
+
+        <label for="department">Department:</label>
+        <input type="text" id="department" name="department" required><br>
+
+        <label for="semester">Semester:</label>
+        <input type="number" id="semester" name="semester" required><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required></textarea><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br>
+
+        <label for="guardianName">Parent/Guardian's Name:</label>
+        <input type="text" id="guardianName" name="guardianName" required><br>
+
+        <label for="guardianPhone">Parent/Guardian's Phone Number:</label>
+        <input type="tel" id="guardianPhone" name="guardianPhone" required><br>
+
+        <input type="submit" value="Submit">
+        <input type="button" value="LogOut" onclick="logout()">
+
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
